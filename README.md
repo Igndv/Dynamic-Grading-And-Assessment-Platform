@@ -1,3 +1,19 @@
+## Dynamic Grading & Assessment Platform by Ignasius Deva
+
+This project is a web-based application designed to provide educators with a flexible and powerful tool for creating dynamic student score sheets. Moving beyond the limitations of rigid spreadsheets, this platform empowers teachers to design their own grading structures from the ground up, tailored precisely to their curriculum and evaluation methodology.
+
+The core feature of the system is its complete customizability. Teachers can define an unlimited number of grading "aspects" (e.g., "Homework," "Final Project," "Class Participation") and assign a specific weight to each. Within each aspect, they can further break down the assessment by adding unlimited "parameters" (e.g., "Essay," "Presentation," "Source Code Quality"), each with its own relative weight.
+
+The platform automates the entire calculation process. As teachers input grades for each parameter, the system automatically computes the weighted score for each aspect and aggregates them into a final numerical grade for the student.
+
+Based on this final score, the system instantly assigns two key indicators:
+
+Letter Grade Predicate: Automatically assigns a grade of A, B, C, D, or E.
+
+Academic Status: Automatically determines if the student has "Passed" or "Failed."
+
+All thresholds for letter grades and the pass/fail status are fully customizable by the teacher, allowing the system to adapt to any school's or class's specific grading scale. This project aims to save teachers significant time on administrative work while providing a more accurate and transparent assessment of student performance.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
